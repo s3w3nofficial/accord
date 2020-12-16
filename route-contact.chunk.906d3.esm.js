@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{CbBH:function(t,c,n){"use strict";n.r(c),function(t){var l=n("hosL");c.default=()=>Object(l.h)(t,null,Object(l.h)("section",{class:"main-contact"},Object(l.h)("div",{class:"main-contact-container"},Object(l.h)("h1",null,"Contact as at:"),Object(l.h)("ul",null,Object(l.h)("li",null,"Email: info@pelaktomas.cz"),Object(l.h)("li",null,"Mobile: +420 777 777 777")))))}.call(this,n("hosL").Fragment)}}]);
+//# sourceMappingURL=route-contact.chunk.906d3.esm.js.map
