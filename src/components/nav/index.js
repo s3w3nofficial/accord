@@ -5,13 +5,26 @@ const Nav = () => (
   <nav class="nav">
     <div class="nav-container">
       <div class="nav-container-banner">
-        <a class="nav-container-banner-link">Accord</a>
+        <Link
+          activeClassName="active"
+          class="nav-container-banner-link"
+          href="/"
+        >
+          Accord
+        </Link>
+      </div>
+      <div class="nav-container-hamburger">
+        <i class="fa fa-bars"></i>
       </div>
       <ul class="nav-container-menu">
         <li class="nav-container-menu-item">
-          <a class="nav-container-menu-item-link" href="">
+          <Link
+            activeClassName="active"
+            class="nav-container-menu-item-link"
+            href="/profile"
+          >
             Download
-          </a>
+          </Link>
         </li>
         <li class="nav-container-menu-item">
           <a class="nav-container-menu-item-link" href="a">
@@ -24,13 +37,10 @@ const Nav = () => (
           </a>
         </li>
         <li class="nav-container-menu-item">
-          <a class="nav-container-menu-item-link" href="c">
-            Log In
-          </a>
-        </li>
-        <li class="nav-container-menu-item">
-          <a class="nav-container-menu-item-link" href="d">
-            Sign Up
+          <a class="nav-container-menu-item-link" href="https://github.com/s3w3nofficial/accord">
+            <button class="nav-container-menu-item-link-button">
+              Visit Github <i class="fa fa-github" />
+            </button>
           </a>
         </li>
       </ul>

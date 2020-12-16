@@ -1,7 +1,7 @@
 import { h } from "preact";
 
 const Home = () => (
-  <main class="main">
+  <>
     <section class="main-about">
       <div class="main-about-container">
         <p>
@@ -68,14 +68,20 @@ const Home = () => (
     </section>
     <section class="main-trynow">
       <div class="main-trynow-container">
-        <h1>Try accord now!</h1>
+        <h1>Download accord now!</h1>
         <div class="main-trynow-container-buttons">
-          <button class="main-trynow-container-buttons-button">Try now</button>
-          <button class="main-trynow-container-buttons-button">Sign Up</button>
+          <a href="https://github.com/s3w3nofficial/accord/archive/master.zip">
+            <button class="main-trynow-container-buttons-button">
+              Download
+            </button>
+          </a>
+          <button class="main-trynow-container-buttons-button">
+            Support Us
+          </button>
         </div>
       </div>
     </section>
-  </main>
+  </>
 );
 
 export default Home;

@@ -11,7 +11,11 @@ const Header = () => (
             family, friends, teams, colleagues, organisations and the wider
             world.
           </h2>
-          <button>Visit github</button>
+          <a href="https://github.com/s3w3nofficial/accord">
+            <button>
+              Visit github <i class="fa fa-github"></i>
+            </button>
+          </a>
           <p>For Web, Android, iOS, macOS, Windows & Linux</p>
         </div>
       </div>
@@ -48,7 +52,7 @@ const Header = () => (
         </ul>
       </div>
       <div class="footer-container-copyright">
-        <p>Copyright &copy 2020 Accord</p>
+        <p>Copyright 2020 Accord</p>
         <div class="footer-container-socials">
           <img src="https://element.io/images/twitter.svg" alt="" />
           <img src="https://element.io/images/twitter.svg" alt="" />
