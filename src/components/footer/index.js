@@ -55,8 +55,6 @@ const Header = () => (
         <p>Copyright 2020 Accord</p>
         <div class="footer-container-socials">
           <img src="https://element.io/images/twitter.svg" alt="" />
-          <img src="https://element.io/images/twitter.svg" alt="" />
-          <img src="https://element.io/images/twitter.svg" alt="" />
         </div>
       </div>
     </div>

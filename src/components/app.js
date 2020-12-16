@@ -7,7 +7,9 @@ import Footer from "./footer";
 
 // Code-splitting is automated for `routes` directory
 import Home from "../routes/home";
-import Profile from "../routes/profile";
+import About from '../routes/about';
+import Prices from '../routes/prices';
+import Contact from '../routes/contact';
 
 const App = () => (
   <div id="app">
@@ -16,8 +18,9 @@ const App = () => (
     <main class="main">
       <Router>
         <Home path="/" />
-        <Profile path="/profile/" user="me" />
-        <Profile path="/profile/:user" />
+		<Contact path="/contact/" />
+		<Prices path="/pricing/" />
+		<About path="/about/" />
       </Router>
     </main>
     <Footer />
